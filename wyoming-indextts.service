@@ -1,0 +1,16 @@
+[Unit]
+Description=IndexTTS-2.5 Wyoming TTS bridge (backup voice)
+After=network-online.target
+Wants=network-online.target
+# Needs ~6 GB VRAM: can't run alongside fish-wyoming on the 12 GB card.
+Conflicts=fish-wyoming.service
+
+[Service]
+Type=simple
+WorkingDirectory=/root/indextts
+ExecStart=/root/indextts/run.sh
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
