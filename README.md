@@ -56,6 +56,9 @@ sentences before it.
   [melancholic] [angry] [afraid] [surprised] [disgusted]`
 - Delivery: `[slow] [fast]`
 
+`ha_prompt.txt` is a matching system-prompt section for the HA conversation
+agent: every tag it teaches is one the bridge voices.
+
 IndexTTS has no inline sounds. `[laughter] [sigh] [breath] [cough] [noise]
 [lipsmack] [mn]` and `[whisper] [loud] [robot]` are removed (logged once), so
 a prompt written for the CosyVoice bridge works unchanged.
