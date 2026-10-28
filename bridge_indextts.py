@@ -100,7 +100,7 @@ MOODS: dict[str, dict[str, float]] = {
     "calm": {"calm": 0.6},
     "sad": {"sad": 0.55, "melancholic": 0.15},
     "melancholic": {"melancholic": 0.6},
-    "angry": {"angry": 0.4},
+    "angry": {"angry": 0.5},
     "afraid": {"afraid": 0.5},
     "surprised": {"surprised": 0.55},
     "disgusted": {"disgusted": 0.5},
